@@ -69,6 +69,6 @@ func searchMatrix(matrix [][]int, target int) bool {
 /**
  * 思路：若matrix[R][C]>target, 则matrix[r][c](r>=R&&c>=C)>target, 反之亦然
  *
- * 执行用时 : 48 ms, 在Search a 2D Matrix II的Go提交中击败了47.71% 的用户
- * 内存消耗 : 6.3 MB, 在Search a 2D Matrix II的Go提交中击败了69.84% 的用户
+ * 执行用时 : 40 ms, 在Search a 2D Matrix II的Go提交中击败了96.02% 的用户
+ * 内存消耗 : 6.3 MB, 在Search a 2D Matrix II的Go提交中击败了46.03% 的用户
  */
