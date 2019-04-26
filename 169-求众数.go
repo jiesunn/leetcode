@@ -44,7 +44,7 @@ func majorityElement(nums []int) int {
 }
 
 /**
- * 思路：不同元素相消，最后剩下的一定是众数
+ * 思路：不同元素相消, 最后剩下的一定是众数
  *
  * 执行用时 : 56 ms, 在Majority Element的Go提交中击败了29.88% 的用户
  * 内存消耗 : 5.9 MB, 在Majority Element的Go提交中击败了48.05% 的用户

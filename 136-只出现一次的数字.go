@@ -46,7 +46,7 @@ func singleNumber(nums []int) int {
 }
 
 /**
- * 思路：位运算之异或
+ * 思路：位运算之异或（相同数运算结果为0, 一个数与0运算结果为这个数本身）
  *
  * 执行用时 : 24 ms, 在Single Number的Go提交中击败了54.76% 的用户
  * 内存消耗 : 4.9 MB, 在Single Number的Go提交中击败了49.81% 的用户
