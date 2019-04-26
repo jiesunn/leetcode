@@ -24,8 +24,8 @@ import (
 )
 
 func main() {
-	nums := [3]int{2, 2, 1}
-	fmt.Printf("%d\n", singleNumber(nums[:]))
+	nums := []int{2, 2, 1}
+	fmt.Printf("%d\n", singleNumber(nums))
 }
 
 func singleNumber(nums []int) int {

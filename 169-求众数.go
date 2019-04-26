@@ -22,19 +22,18 @@ import (
 )
 
 func main() {
-	nums := [3]int{3, 2, 3}
-	fmt.Printf("%d\n", majorityElement(nums[:]))
+	nums := []int{3, 2, 3}
+	fmt.Printf("%d\n", majorityElement(nums))
 }
 
 func majorityElement(nums []int) int {
 	num := 0
 	count := 0
-	len := len(nums)
-	for i := 0; i < len; i++ {
+	for _, value := range nums {
 		if count == 0 {
-			num = nums[i]
+			num = value
 		}
-		if num == nums[i] {
+		if num == value {
 			count++
 		} else {
 			count--
@@ -47,6 +46,6 @@ func majorityElement(nums []int) int {
 /**
  * 思路：不同元素相消，最后剩下的一定是众数
  *
- * 执行用时 : 44 ms, 在Majority Element的Go提交中击败了45.43% 的用户
- * 内存消耗 : 6 MB, 在Majority Element的Go提交中击败了32.90% 的用户
+ * 执行用时 : 56 ms, 在Majority Element的Go提交中击败了29.88% 的用户
+ * 内存消耗 : 5.9 MB, 在Majority Element的Go提交中击败了48.05% 的用户
  */
