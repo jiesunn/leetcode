@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58bf1035-14be-4bad-8ff0-cf7d149ccb53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0003-无重复字符的最长子串.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0002-两数相加.go" beforeDir="false" afterPath="$PROJECT_DIR$/0002-两数相加.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0003-无重复字符的最长子串.go" beforeDir="false" afterPath="$PROJECT_DIR$/0003-无重复字符的最长子串.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,32 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0001-两数之和.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0003-无重复字符的最长子串.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="452">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
-                <element signature="e#375#392#0" expanded="true" />
+                <element signature="e#437#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/0002-两数相加.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0003-无重复字符的最长子串.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="-135">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -61,8 +51,8 @@
       <list>
         <option value="$PROJECT_DIR$/test.go" />
         <option value="$PROJECT_DIR$/0001-两数之和.go" />
-        <option value="$PROJECT_DIR$/0003-无重复字符的最长子串.go" />
         <option value="$PROJECT_DIR$/0002-两数相加.go" />
+        <option value="$PROJECT_DIR$/0003-无重复字符的最长子串.go" />
       </list>
     </option>
   </component>
@@ -114,12 +104,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 0001-两数之和.go">
+  <component name="RunManager" selected="Go Build.go build 0003-无重复字符的最长子串.go">
     <configuration name="go build 0001-两数之和.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/0001-两数之和.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 0003-无重复字符的最长子串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/0003-无重复字符的最长子串.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -133,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 0003-无重复字符的最长子串.go" />
         <item itemvalue="Go Build.go build 0001-两数之和.go" />
         <item itemvalue="Go Build.go build test.go" />
       </list>
@@ -142,12 +141,12 @@
     <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14797008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14797008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.17286652" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.20350109" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -155,7 +154,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946582" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946582" visible="true" weight="0.17286652" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946582" weight="0.17286652" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005342" side_tool="true" weight="0.17286652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -197,27 +196,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0003-无重复字符的最长子串.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0001-两数之和.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <element signature="e#375#392#0" expanded="true" />
+            <element signature="e#298#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0002-两数相加.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        <state relative-caret-position="-135">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0003-无重复字符的最长子串.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding>
+            <element signature="e#437#454#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
