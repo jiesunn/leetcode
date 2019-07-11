@@ -44,8 +44,8 @@ func main() {
 	fmt.Println(superEggDrop(k, n))
 }
 
+//方法1
 func superEggDrop(K int, N int) int {
-	//方法1
 	dp := make([][]int, K+1)
 	for i := 0; i < len(dp); i++ {
 		dp[i] = make([]int, N+1)
@@ -60,8 +60,10 @@ func superEggDrop(K int, N int) int {
 		}
 	}
 	return N
+}
 
-	//方法2
+//方法2
+func superEggDrop2(K int, N int) int {
 	moves := 0
 	dp := make([]int, K+1)
 	for dp[K] < N {
