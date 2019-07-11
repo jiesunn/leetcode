@@ -99,3 +99,7 @@ func check(s string) bool {
 	}
 	return cnt == 0
 }
+
+/**
+ 思路： 找出需要删除的括号数，然后dfs
+ */
