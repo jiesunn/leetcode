@@ -42,7 +42,13 @@ func threeSum(nums []int) [][]int {
 		sort.Ints(nums)
 		for i := 1; i < size - 1 ; i++ {
 			left, right := 0, size - 1
+			if nums[left] > 0 || nums[right] < 0 {
+				break
+			}
 			for left < i && right > i {
+				if (nums[i] < 0 && nums[right] < 0) || (nums[i] > 0 && nums[left] > 0) {
+					break
+				}
 				temp := nums[left] + nums[i] + nums[right]
 				//fmt.Printf("%d, %d, %d\n", nums[left], nums[i], nums[right])
 				if temp <= 0 {
@@ -66,5 +72,5 @@ func threeSum(nums []int) [][]int {
 }
 
 /**
- * 思路: 排序，以0为界限，固定两端各一个值，根据不同的条件遍历其间的元素
+ * 思路: 排序，固定中间的值，找两端
  */
