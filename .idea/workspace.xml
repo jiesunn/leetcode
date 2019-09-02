@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58bf1035-14be-4bad-8ff0-cf7d149ccb53" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/0064-最小路径和.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0001-两数之和/0001-两数之和.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0001-两数之和/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0002-两数相加/0002-两数相加.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0002-两数相加/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0003-无重复字符的最长子串/0003-无重复字符的最长子串.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0004-寻找两个有序数组的中位数/0004-寻找两个有序数组的中位数.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0005-最长回文子串/0005-最长回文子串.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0008-字符串转换整数 (atoi)/0008-字符串转换整数 (atoi).go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0015-三数之和/0015-三数之和.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0018-四数之和/0018-四数之和.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0049-字母异位词分组/0049-字母异位词分组.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0088-合并两个有序数组/0088-合并两个有序数组.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0104-二叉树的最大深度/0104-二叉树的最大深度.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01160-拼写单词/01160-拼写单词.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01161-最大层内元素和/01161-最大层内元素和.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0125-验证回文串/0125-验证回文串.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0136-只出现一次的数字/0136-只出现一次的数字.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0169-求众数/0169-求众数.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0234-回文链表/0234-回文链表.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0236-二叉树的最近公共祖先/0236-二叉树的最近公共祖先.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0240-搜索二维矩阵ii/0240-搜索二维矩阵ii.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0301-删除无效的括号/0301-删除无效的括号.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0378-有序矩阵中第K小的元素/0378-有序矩阵中第K小的元素.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0772-删除注释/0772-删除注释.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0887-鸡蛋掉落/0887-鸡蛋掉落.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +58,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="206" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1PJaWioxAPp4ZIouJFfM6PSVRq0" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -48,6 +70,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
