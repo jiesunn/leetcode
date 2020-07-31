@@ -2,34 +2,39 @@ package main
 
 import (
 	"fmt"
+	"strings"
+	"strconv"
 )
 
 func main() {
-	v := numDecodings("1212")
-	fmt.Println(v)
+	for {
+        str := ScanLine()
+		if str == "" {
+			break;
+		}
+		arr := strings.Split(str, ",")
+		size := len(arr)
+		for i := 0; i < size; i++ {
+			if 
+		}
+	}
 }
 
-func numDecodings(s string) int {
-	count := 0
-	l := len(s)
-	for i := 0; i < l; i++ {
-		if i == 0 {
-			if s[i:i+1] == "0" {
-				break
-			}
-			count++
-			continue
+func ScanLine() string {
+	var c byte
+	var err error
+	var b []byte
+	for {
+		_, err = fmt.Scanf("%c", &c)
+		if err != nil {
+			return ""
 		}
-		if s[i-1:i] != "0" && s[i:i+1] != "0" && s[i-1:i+1] <= "26" {
-			count++
-		}
-		if i >= 2 && s[i:i+1] == "0" && s[i-2:i-1] != "0" && s[i-2:i] <= "26" {
-			count--
-		}
-		if s[i-1:i+1] == "00" || (s[i-1:i] > "2" && s[i:i+1] == "0") {
-			count = 0
+		
+		if c != '\n' {
+			b = append(b, c)
+		} else {
 			break
 		}
 	}
-	return count
+	return string(b)
 }
